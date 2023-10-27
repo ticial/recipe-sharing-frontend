@@ -1,7 +1,7 @@
 import IComment from "../comment/Comment";
 import IOperation from "../operation/Operation";
 import IUser from "../user/User";
-import IMedia from "../../shared/media/Media";
+import IMedia from "shared/UI/media/Media";
 
 export default interface IRecipe {
     id: string;

@@ -1,4 +1,4 @@
-import IMedia from "../../shared/media/Media";
+import IMedia from "shared/UI/media/Media";
 import IRecipe from "../recipe/Recipe";
 import IUser from "../user/User";
 
