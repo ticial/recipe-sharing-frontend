@@ -1,0 +1,39 @@
+// debug
+header,
+.content,
+.sidebar,
+footer {
+    background-color: aqua;
+}
+
+header {
+    height: 200px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.content {
+    width: 100%;
+}
+
+footer {
+    height: 200px;
+}
