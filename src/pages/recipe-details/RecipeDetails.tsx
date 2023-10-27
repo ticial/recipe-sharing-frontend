@@ -8,7 +8,7 @@ export default function RecipeDetails(props: Props) {
     return (
         <>
             <BasePage
-                sidebar={<>Sidebar</>}
+                sidebar={<>RecipeDetailsSidebar</>}
                 content={<>{`Recipe ID "${params.id}"`}</>}></BasePage>
         </>
     );

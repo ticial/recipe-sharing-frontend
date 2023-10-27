@@ -5,7 +5,9 @@ type Props = {};
 export default function ShoppingList(props: Props) {
     return (
         <>
-            <BasePage sidebar={<>Sidebar</>} content={<>Content</>}></BasePage>
+            <BasePage
+                sidebar={<>ShoppingListSidebar</>}
+                content={<>ShoppingListContent</>}></BasePage>
         </>
     );
 }

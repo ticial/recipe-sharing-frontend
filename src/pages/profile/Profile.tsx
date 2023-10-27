@@ -5,7 +5,9 @@ type Props = {};
 export default function Profile(props: Props) {
     return (
         <>
-            <BasePage sidebar={<>Sidebar</>} content={<>Content</>}></BasePage>
+            <BasePage
+                sidebar={<>ProfileSidebar</>}
+                content={<>ProfileContent</>}></BasePage>
         </>
     );
 }
