@@ -1,11 +1,23 @@
-// debug
-header {
-    background-color: aqua;
-}
-
-header {
-    height: 200px;
+.header {
+    // height: 200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
+}
+
+.title {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.navigation {
+    display: flex;
+}
+
+.acsent {
+    color: #d31010;
 }

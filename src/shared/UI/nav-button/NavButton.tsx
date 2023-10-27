@@ -7,15 +7,12 @@ type Props = { to: To; children: ReactNode };
 export default function NavButton({ to, children }: Props) {
     return (
         <>
-            <NavLink to={to}>
-                {({ isActive }) => (
-                    <button
-                        className={
-                            styles.button + " " + isActive ? styles.active : ""
-                        }>
-                        {children}
-                    </button>
-                )}
+            <NavLink
+                className={({ isActive }) =>
+                    isActive ? styles.buttonActive : styles.button
+                }
+                to={to}>
+                {children}
             </NavLink>
         </>
     );
