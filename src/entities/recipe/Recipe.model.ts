@@ -1,6 +1,6 @@
-import IComment from "../comment/Comment";
-import IOperation from "../operation/Operation";
-import IUser from "../user/User";
+import IComment from "../comment/Comment.model";
+import IOperation from "../operation/Operation.model";
+import IUser from "../user/User.model";
 import IMedia from "shared/UI/media/Media";
 
 export default interface IRecipe {

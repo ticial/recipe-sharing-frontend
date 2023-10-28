@@ -1,4 +1,4 @@
-import BasePage from "pages/base/BasePage";
+import Layout from "pages/layout/Layout";
 import RecipesSidebar from "widgets/recipes-sidebar/RecipesSidebar";
 
 type Props = {};
@@ -6,9 +6,7 @@ type Props = {};
 export default function Recipes(props: Props) {
     return (
         <>
-            <BasePage
-                sidebar={<RecipesSidebar />}
-                content={<>Content</>}></BasePage>
+            <Layout sidebar={<RecipesSidebar />} content={<>Content</>} />
         </>
     );
 }

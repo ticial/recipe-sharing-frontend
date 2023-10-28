@@ -1,4 +1,4 @@
-import BasePage from "pages/base/BasePage";
+import Layout from "pages/layout/Layout";
 import { useParams } from "react-router-dom";
 
 type Props = {};
@@ -7,9 +7,10 @@ export default function RecipeDetails(props: Props) {
     const params = useParams();
     return (
         <>
-            <BasePage
+            <Layout
                 sidebar={<>RecipeDetailsSidebar</>}
-                content={<>{`Recipe ID "${params.id}"`}</>}></BasePage>
+                content={<>{`Recipe ID "${params.id}"`}</>}
+            />
         </>
     );
 }

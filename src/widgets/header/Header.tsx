@@ -19,11 +19,9 @@ export default function Header({ auth, shoppingListNotEmpty }: Props) {
                 {auth ? (
                     <>
                         <NavButton to={"/profile"}>Profile</NavButton>
-                        <NavButton to={"/logout"}>Log Out</NavButton>
                     </>
                 ) : (
                     <>
-                        <NavButton to={"/register"}>Sign Up</NavButton>
                         <NavButton to={"/login"}>Log In</NavButton>
                     </>
                 )}

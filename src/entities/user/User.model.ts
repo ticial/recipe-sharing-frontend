@@ -1,4 +1,4 @@
-import IRecipe from "../recipe/Recipe";
+import IRecipe from "../recipe/Recipe.model";
 
 export default interface IUser {
     id: string;

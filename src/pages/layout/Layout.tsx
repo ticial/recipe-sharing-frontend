@@ -4,7 +4,7 @@ import Header from "widgets/header/Header";
 
 type Props = { sidebar: React.ReactNode; content: React.ReactNode };
 
-export default function BasePage(props: Props) {
+export default function Layout(props: Props) {
     return (
         <div className={styles.wrapper}>
             <Header auth={true} shoppingListNotEmpty={true} />
