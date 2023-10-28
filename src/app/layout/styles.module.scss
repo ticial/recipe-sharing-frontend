@@ -1,5 +1,8 @@
 // debug
-
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .wrapper {
     display: flex;
@@ -26,18 +29,19 @@
     padding: 10px;
     width: 300px;
 
-    background-color: #e1e1e1;
+    background-color: var(--color-light);
     border-radius: 15px;
 }
 
 .content {
+
     width: 100%;
-    background-color: #e1e1e1;
+    background-color: var(--color-light);
     border-radius: 15px;
 }
 
 footer {
     height: 200px;
-    background-color: #e1e1e1;
+    background-color: var(--color-light);
     border-radius: 15px;
 }

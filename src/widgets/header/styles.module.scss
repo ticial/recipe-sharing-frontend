@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
+
 }
 
 @media screen and (max-width: 930px) {
@@ -18,7 +19,7 @@
     font-weight: bold;
     margin-left: 20px;
     margin-bottom: 15px;
-    color: #333;
+    color: var(--color-dark);
 }
 
 .navigation {
@@ -26,5 +27,5 @@
 }
 
 .acsent {
-    color: #d31010;
+    color: var(--color-accent);
 }

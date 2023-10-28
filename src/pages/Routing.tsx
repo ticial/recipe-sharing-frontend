@@ -13,7 +13,7 @@ export const Routing = () => {
             <Route path="/recipe/:recipeId" element={<RecipeDetailsPage />} />
             <Route path="/shopping-list" element={<ShoppingListPage />} />
             <Route path="/profile" element={<ProfilePage />} />
-            <Route element={<Navigate to="/" />} />
+            <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
     );
 };

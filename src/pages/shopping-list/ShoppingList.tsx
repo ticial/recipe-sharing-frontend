@@ -1,4 +1,4 @@
-import Layout from "pages/layout/Layout";
+import Layout from "app/layout/Layout";
 import ShoppingListSidebar from "widgets/shopping-list-sidebar/ShopingListSidebar";
 
 type Props = {};

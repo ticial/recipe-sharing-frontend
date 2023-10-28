@@ -1,4 +1,4 @@
-import Layout from "pages/layout/Layout";
+import Layout from "app/layout/Layout";
 import { useParams } from "react-router-dom";
 
 type Props = {};
