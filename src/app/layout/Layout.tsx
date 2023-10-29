@@ -14,7 +14,11 @@ export default function Layout(props: Props) {
                 <Header auth={true} />
                 <Navbar auth={true} shoppingListNotEmpty={true} />
                 <div className={styles.main}>
-                    <div className={styles.sidebar}>{props.sidebar}</div>
+                    <div className={styles.sidebar}>
+                        <div className={styles.sidebarButtons}>
+                            {props.sidebar}
+                        </div>
+                    </div>
                     {/* <Divider side="left" /> */}
                     <div className={styles.content}>{props.content}</div>
                 </div>
