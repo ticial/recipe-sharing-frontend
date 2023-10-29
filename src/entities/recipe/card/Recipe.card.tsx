@@ -8,7 +8,7 @@ export default function RecipeCard(props: Props) {
         <>
             <Card
                 hoverable
-                // style={{ width: 300 }}
+                style={{ border: "1px solid var(--color-light)" }}
                 size="small"
                 cover={
                     <img
