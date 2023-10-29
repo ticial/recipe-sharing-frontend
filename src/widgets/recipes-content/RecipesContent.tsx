@@ -74,7 +74,8 @@ export default function ResipesContent(props: Props) {
             <Space
                 size={[20, 20]}
                 wrap
-                style={{ justifyContent: "space-between" }}>
+                // style={{ justifyContent: "space-between" }}
+            >
                 <RecipeCard />
                 <RecipeCard />
                 <RecipeCard />
