@@ -1,0 +1,28 @@
+.developedBy {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-dark-gray);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+.bg {
+    position: absolute;
+    background-color: var(--color-gray);
+    box-shadow: 0 -1px 3px var(--color-light);
+
+    width: 100vw;
+    height: 100%;
+    transform: translateX(-50%);
+    // position: relative;
+    left: 50%;
+    z-index: -1;
+}

@@ -1,0 +1,41 @@
+.vertical {
+    width: 1;
+    height: 100%;
+}
+
+.left {
+    content: "";
+    border-left: 1px solid #888;
+    // position: relative;
+    // left: 3px;
+    box-shadow: 0 0 3px var(--color-dark),
+        0 0 3px var(--color-dark);
+    width: 1px;
+    height: 100%;
+}
+
+.right {
+    content: "";
+    box-shadow: 1px 0 2px var(--color-dark);
+    width: 1;
+    height: 100%;
+}
+
+.horizontal {
+    height: 1;
+    width: 100%;
+}
+
+.up {
+    content: "";
+    box-shadow: -1px 0 2px var(--color-dark);
+    height: 1;
+    width: 100%;
+}
+
+.down {
+    content: "";
+    box-shadow: -1px 0 2px var(--color-dark);
+    height: 1;
+    width: 100%;
+}

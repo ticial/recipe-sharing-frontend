@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 type Props = {};
 
-export default function RecipeDetails(props: Props) {
+export default function RecipeDetailsPage(props: Props) {
     const params = useParams();
     return (
         <>

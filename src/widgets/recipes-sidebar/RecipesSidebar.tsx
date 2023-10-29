@@ -5,6 +5,7 @@ type Props = {};
 export default function RecipesSidebar(props: Props) {
     return (
         <>
+            <SidebarButton>Create recipe</SidebarButton>
             <SidebarButton>All recipes</SidebarButton>
             <SidebarButton>My recipes</SidebarButton>
             <SidebarButton>Favorites</SidebarButton>

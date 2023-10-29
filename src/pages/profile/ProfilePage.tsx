@@ -3,7 +3,7 @@ import ProfileSidebar from "widgets/profile-sidebar/ProfileSidebar";
 
 type Props = {};
 
-export default function Profile(props: Props) {
+export default function ProfilePage(props: Props) {
     return (
         <>
             <Layout

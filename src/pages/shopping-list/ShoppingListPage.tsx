@@ -3,7 +3,7 @@ import ShoppingListSidebar from "widgets/shopping-list-sidebar/ShopingListSideba
 
 type Props = {};
 
-export default function ShoppingList(props: Props) {
+export default function ShoppingListPage(props: Props) {
     return (
         <>
             <Layout

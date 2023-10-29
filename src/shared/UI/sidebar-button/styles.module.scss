@@ -1,27 +1,31 @@
 .button,
 .buttonActive {
     display: block;
-    border: 2px solid var(--color-dark);
+    // border: 2px solid var(--color-dark);
     border-radius: 10px;
     background: none;
 
-    padding: 5px;
+    padding: 6px;
     // margin: 5px;
 
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: var(--color-dark);
-    font-weight: bold;
-    text-align: center;
+    font-weight: 500;
+    text-indent: 5px;
+    // text-align: center;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
 }
 
 .buttonActive {
     color: var(--color-accent);
-    border-color: var(--color-accent);
+    background: #fff;
+    // border-color: var(--color-accent);
     cursor: default;
 }
 
 .button:hover {
-    text-decoration: underline;
+    // text-decoration: underline;
+    background: #fff;
 }
